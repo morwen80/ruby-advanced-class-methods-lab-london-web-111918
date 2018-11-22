@@ -11,6 +11,6 @@ class Song
   end
 
   song =  Song.new_by_name(name)
-    @name = name
-  end
+
+  
 end
