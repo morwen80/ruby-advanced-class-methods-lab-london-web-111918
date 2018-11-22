@@ -10,11 +10,9 @@ class Song
     self.class.all << self
   end
 
-  def self.create
-    
-  end
+  song = Song.create
   
-  def self.new_by_name(name)
+  def Song.new_by_name(name)
     @name = name
   end
 end
